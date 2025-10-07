@@ -1,5 +1,6 @@
 name : Deploy tic tac toe game to github pages
 on:
+  workflow_dispatch:
   push:
     branches:
       -main
